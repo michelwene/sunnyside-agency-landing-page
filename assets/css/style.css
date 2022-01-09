@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+
+:root {
+  /*cores primárias*/
+  --vermelho-claro: hsl(7, 99%, 70%);
+  --amarelo: hsl(51, 100%, 49%);
+  --ciano-escuro: hsl(167, 40%, 24%);
+  --azul-escuro: hsl(198, 62%, 26%);
+  --ciano-moderado: hsl(168, 34%, 41%);
+
+  /*cores neutras*/
+  --azul-muitoescuro: hsl(212, 27%, 19%);
+  --azul-acizentado-muitoescuro: hsl(213, 9%, 39%);
+  --azul-acizentado-escuro: hsl(232, 10%, 55%);
+  --azul-acizentado: hsl(210, 4%, 67%);
+  --branco: hsl(0, 0%, 100%);
+}
