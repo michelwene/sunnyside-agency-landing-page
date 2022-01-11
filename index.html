@@ -13,110 +13,132 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Frontend Mentor | Sunnyside agency landing page</title>
   </head>
-  <body>
-    <header>
-      <img src="" alt="" />
-      <nav>
-        <ul>
-          <li>About</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+  <body class="app">
+    <header class="cabecalho">
+      <img src="" alt="" class="logo" />
+      <nav class="menu">
+        <ul class="menu__lista">
+          <li class="menu__item">About</li>
+          <li class="menu__item">Services</li>
+          <li class="menu__item">Projects</li>
+          <li class="menu__item">Contact</li>
         </ul>
       </nav>
     </header>
-
-    <main>
-      <section>
-        <h1>We are creatives</h1>
-        <a href=""></a>
-      </section>
-      <section>
-        <div>
-          <h2>Transform your brand</h2>
-          <p>
-            We are a full-service creative agency specializing in helping brands
-            grow fast. Engage your clients through compelling visuals that do
-            most of the marketing for you.
-          </p>
-          <button>Learn more</button>
-        </div>
-        <div>
-          <img src="" alt="" />
-        </div>
-        <div><img src="" alt="" /></div>
-        <div>
-          <h2>Stand out to the right audience</h2>
-          <p>
-            Using a collaborative formula of designers, researchers,
-            photographers, videographers, and copywriters, we’ll build and
-            extend your brand in digital places.
-          </p>
-          <button>Learn more</button>
-        </div>
-        <div>
-          <h2>Graphic design</h2>
-          <p>
-            Great design makes you memorable. We deliver artwork that
-            underscores your brand message and captures potential clients’
-            attention.
-          </p>
-        </div>
-        <div>
-          <h2>Photography</h2>
-          <p>
-            Increase your credibility by getting the most stunning, high-quality
-            photos that improve your business image.
-          </p>
-        </div>
-      </section>
-      <section>
-        <h3>Client testimonials</h3>
-        <div>
-          <img src="" alt="" />
-          <p>
-            We put our trust in Sunnyside and they delivered, making sure our
-            needs were met and deadlines were always hit.
-          </p>
-          <span
-            ><h3>Emily R.</h3>
-            <p>Marketing Director</p></span
-          >
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p>
-            Sunnyside’s enthusiasm coupled with their keen interest in our
-            brand’s success made it a satisfying and enjoyable experience.
-          </p>
-          <span>
-            <h3>Thomas S.</h3>
-            <p>Chief Operating Officer</p>
-          </span>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p>
-            Incredible end result! Our sales increased over 400% when we worked
-            with Sunnyside. Highly recommended!
-          </p>
-          <span>
-            <h3>Jennie F.</h3>
-            <p>Business Owner</p>
-          </span>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <h4>Sunnyside</h4>
-      <nav>
-        <ul>
-          <li>About</li>
-          <li>Services</li>
-          <li>Projects</li>
+    <section class="banner">
+      <div src="" alt="" class="banner__image"></div>
+      <h1>We are creatives</h1>
+      <a href=""></a>
+    </section>
+    <section class="conteudo">
+      <div class="descricao">
+        <h2 class="descricao__titulo">Transform your brand</h2>
+        <p class="descricao__texto">
+          We are a full-service creative agency specializing in helping brands
+          grow fast. Engage your clients through compelling visuals that do most
+          of the marketing for you.
+        </p>
+        <button class="descricao__leiaMais">Learn more</button>
+      </div>
+      <div class="descricao__image">
+        <img src="" alt="" class="descricao__image--container" />
+      </div>
+      <div class="descricao__image">
+        <img src="" alt="" class="descricao__image--container" />
+      </div>
+      <div class="descricao">
+        <h2 class="descricao__titulo">Stand out to the right audience</h2>
+        <p class="descricao__texto">
+          Using a collaborative formula of designers, researchers,
+          photographers, videographers, and copywriters, we’ll build and extend
+          your brand in digital places.
+        </p>
+        <button class="descricao__leiaMais">Learn more</button>
+      </div>
+      <div class="descricao">
+        <h2 class="descricao__titulo">Graphic design</h2>
+        <p class="descricao__texto">
+          Great design makes you memorable. We deliver artwork that underscores
+          your brand message and captures potential clients’ attention.
+        </p>
+      </div>
+      <div class="descricao">
+        <h2 class="descricao__titulo">Photography</h2>
+        <p class="descricao__texto">
+          Increase your credibility by getting the most stunning, high-quality
+          photos that improve your business image.
+        </p>
+      </div>
+    </section>
+    <section class="depoimentos">
+      <h3 class="depoimentos__titulo">Client testimonials</h3>
+      <div class="cliente">
+        <img src="" alt="" class="cliente__logo" />
+        <p class="cliente__depoimento">
+          We put our trust in Sunnyside and they delivered, making sure our
+          needs were met and deadlines were always hit.
+        </p>
+        <span class="info"
+          ><h3 class="info__nome">Emily R.</h3>
+          <p class="info__cargo">Marketing Director</p></span
+        >
+      </div>
+      <div class="cliente">
+        <img src="" alt="" class="cliente__logo" />
+        <p class="cliente__depoimento">
+          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
+          success made it a satisfying and enjoyable experience.
+        </p>
+        <span class="info">
+          <h3 class="info__nome">Thomas S.</h3>
+          <p class="info__cargo">Chief Operating Officer</p>
+        </span>
+      </div>
+      <div class="cliente">
+        <img src="" alt="" class="cliente_logo" />
+        <p class="cliente__depoimento">
+          Incredible end result! Our sales increased over 400% when we worked
+          with Sunnyside. Highly recommended!
+        </p>
+        <span class="info">
+          <h3 class="info__nome">Jennie F.</h3>
+          <p class="info__cargo">Business Owner</p>
+        </span>
+      </div>
+    </section>
+    <footer class="rodape">
+      <h4 class="nome__empresa">Sunnyside</h4>
+      <nav class="menu--rodape">
+        <ul class="menu__lista--rodape">
+          <li class="menu__item--rodape">About</li>
+          <li class="menu__item--rodape">Services</li>
+          <li class="menu__item--rodape">Projects</li>
         </ul>
       </nav>
-      <div><a href=""></a><a href=""></a><a href=""></a><a href=""></a></div>
+      <div class="compartilhar">
+        <ul class="menu__compartilhar">
+          <li class="menu__lista--compartilhar">
+            <a href="#" class="menu__item--link"
+              ><img src="" alt="" class="menu__item--image"
+            /></a>
+          </li>
+          <li class="menu__lista--compartilhar">
+            <a href="#" class="menu__item--link"
+              ><img src="" alt="" class="menu__item--image"
+            /></a>
+          </li>
+          <li class="menu__lista--compartilhar">
+            <a href="#" class="menu__item--link"
+              ><img src="" alt="" class="menu__item--image"
+            /></a>
+          </li>
+          <li class="menu__lista--compartilhar">
+            <a href="#" href="#" class="menu__item--link"
+              ><img src="" alt="" class="menu__item--image"
+            /></a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
