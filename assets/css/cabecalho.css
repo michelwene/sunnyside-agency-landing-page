@@ -1,0 +1,48 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  position: relative;
+  z-index: 100;
+}
+
+.logo {
+  height: 2.1rem;
+  width: 10.6rem;
+  position: relative;
+  top: 2.9rem;
+  left: 2.5rem;
+}
+
+.menu {
+  color: var(--branco);
+  font-size: 1.2rem;
+  margin-top: 3.3rem;
+  width: 500px;
+  position: relative;
+  right: 2.4rem;
+}
+
+.menu__lista {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu__item:last-child {
+  align-items: center;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  left: 7px;
+  background-color: var(--branco);
+  height: 55px;
+  position: relative;
+  top: -16px;
+  width: 140px;
+}
+
+.menu__item a {
+  color: black;
+  text-decoration: none;
+}
+

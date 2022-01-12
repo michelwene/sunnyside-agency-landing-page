@@ -1,0 +1,52 @@
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+.banner {
+  background-image: url(../images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50rem;
+  position: absolute;
+  top: 0;
+  width: 90rem;
+}
+
+.banner__titulo {
+  color: var(--branco);
+  font-family: "Fraunces", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  margin-top: 12.3rem;
+  margin-left: 21.5rem;
+  text-transform: uppercase;
+  word-spacing: 7px;
+}
+
+.banner__seta {
+  left: 43.9rem;
+  position: relative;
+  top: 6rem;
+}
+
+.banner__seta--image:hover {
+  animation: bounce 1s;
+}

@@ -15,3 +15,15 @@
   --azul-acizentado: hsl(210, 4%, 67%);
   --branco: hsl(0, 0%, 100%);
 }
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  max-width: 90rem;
+}
+
+.app {
+  font-family:'Barlow', sans-serif;
+  min-height: 100%;
+  overflow: unset;
+}
