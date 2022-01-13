@@ -1,0 +1,37 @@
+.descricao__texto1 {
+  color: var(--azul-acizentado);
+  font-family: "Barlow", sans-serif;
+  font-size: 17.8px;
+  line-height: 1.6;
+  padding-right: 6rem;
+  text-align: left;
+}
+
+.descricao__texto2 {
+  color: var(--azul-acizentado);
+  font-family: "Barlow", sans-serif;
+  font-size: 17.8px;
+  line-height: 1.7;
+  padding-right: 10rem;
+  text-align: left;
+}
+
+.descricao__texto3 {
+  color: var(--ciano-moderado);
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  text-align: center;
+}
+
+.descricao__texto4 {
+  color: var(--azul-escuro);
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  text-align: center;
+}

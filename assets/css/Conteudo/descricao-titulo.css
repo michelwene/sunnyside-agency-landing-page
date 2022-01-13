@@ -1,0 +1,31 @@
+.descricao__titulo {
+  color: var(--azul-muitoescuro);
+  font-family: "Fraunces", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.1;
+  padding-right: 7rem;
+  padding-bottom: 2.4rem;
+}
+
+.descricao__titulo3 {
+  color: var(--ciano-escuro);
+  font-family: "Fraunces", sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1.1;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.descricao__titulo4 {
+  color: var(--azul-escuro);
+  font-family: "Fraunces", sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1.1;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  text-transform: capitalize;
+}

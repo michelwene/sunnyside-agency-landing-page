@@ -1,0 +1,29 @@
+.descricao1 {
+    grid-area: 1 / 1 / 2 / 2;
+    margin-top: 10.3rem;
+    padding-left: 10.3rem;
+  }
+
+  .descricao2 {
+    margin-top: 10rem;
+    padding-left: 7rem;
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .descricao3 {
+    background-image: url(../../images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 25rem;
+    grid-area: 3 / 1 / 4 / 2;
+  }
+
+  .descricao4 {
+    background-image: url(../../images/desktop/image-photography.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 25rem;
+    grid-area: 3 / 2 / 4 / 3;
+  }

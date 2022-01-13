@@ -26,36 +26,4 @@
   width: 170px;
 }
 
-.menu--rodape {
-  margin-bottom: 3.1rem;
-  width: 300px;
-}
 
-.menu__lista--rodape {
-  display: flex;
-  color: var(--ciano-escuro);
-  justify-content: space-between;
-}
-
-.menu__item--rodape {
-  font-size: 18px;
-  opacity: 0.7;
-}
-
-.menu__item--rodape:hover {
-  color: var(--branco);
-  cursor: pointer;
-}
-.compartilhar {
-  width: 190px;
-}
-
-.menu__compartilhar {
-  margin-bottom: 3.3rem;
-  display: flex;
-  justify-content: space-around;
-}
-
-.menu__lista--compartilhar:hover{
-  filter: brightness(20);
-}

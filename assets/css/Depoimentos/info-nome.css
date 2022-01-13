@@ -1,0 +1,9 @@
+
+.info__nome {
+    color: var(--azul-muitoescuro);
+    font-family: "Fraunces", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 15px;
+    text-align: center;
+  }

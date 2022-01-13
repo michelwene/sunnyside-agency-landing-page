@@ -1,0 +1,42 @@
+.clientes {
+  display: flex;
+  justify-content: space-around;
+  margin: 5.3rem 11rem 0 10.5rem;
+}
+
+.cliente {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cliente__logo--emily {
+  background: url(../../images/image-emily.jpg) center / cover no-repeat;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.cliente__logo--thomas {
+  background: url(../../images/image-thomas.jpg) center / cover no-repeat;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.cliente__logo--jennie {
+  background: url(../../images/image-jennie.jpg) center / cover no-repeat;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.cliente__depoimento {
+  color: var(--azul-acizentado-escuro);
+  font-family: "Barlow", sans-serif;
+  font-size: 19px;
+  line-height: 1.7;
+  margin-top: 3.7rem;
+  padding: 0 10px;
+  text-align: center;
+}

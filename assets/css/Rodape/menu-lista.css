@@ -1,0 +1,5 @@
+.menu__lista--rodape {
+    display: flex;
+    color: var(--ciano-escuro);
+    justify-content: space-between;
+  }
