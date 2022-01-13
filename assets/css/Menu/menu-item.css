@@ -29,6 +29,7 @@
   width: 100%;
   z-index: -1;
 }
+
 .menu__item:last-child:hover {
   cursor: pointer;
   color: var(--branco);
@@ -36,4 +37,10 @@
 
 .menu__item:last-child:hover::before {
   opacity: 0.4;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__item:last-child::before {
+    background-color: var(--amarelo);
+  }
 }

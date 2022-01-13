@@ -24,7 +24,17 @@ html {
 }
 
 .app {
-  font-family:'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   min-height: 100%;
   overflow: unset;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    max-width: 32.7rem;
+  }
+
+  .app {
+    overflow: hidden;
+  }
 }

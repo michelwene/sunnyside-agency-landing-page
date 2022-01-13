@@ -19,10 +19,7 @@
 }
 
 .banner {
-  background-image: url(../images/desktop/image-header.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: url(../images/desktop/image-header.jpg) center / cover no-repeat;
   height: 50rem;
   position: absolute;
   top: 0;
@@ -49,4 +46,21 @@
 
 .banner__seta--image:hover {
   animation: bounce 1s;
+}
+
+@media screen and (max-width: 768px){
+  .banner{
+    background: url(../images/mobile/image-header.jpg) center / cover no-repeat;
+    width: 100%;
+  }
+
+  .banner__titulo {
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin-top: 12.3rem;
+    margin-left: 10rem;
+    text-transform: uppercase;
+    word-spacing: 7px;
+  }
 }

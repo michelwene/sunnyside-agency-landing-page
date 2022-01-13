@@ -1,8 +1,19 @@
 .menu {
-    color: var(--branco);
-    font-size: 1.2rem;
-    margin-top: 3.3rem;
-    width: 500px;
-    position: relative;
-    right: 2.4rem;
+  color: var(--branco);
+  font-size: 1.2rem;
+  margin-top: 3.3rem;
+  width: 500px;
+  position: relative;
+  right: 2.4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    background: url(../../images/icon-hamburger.svg) center / cover no-repeat;
+    height: 20px;
+    right: 1.5rem;
+    margin-top: 0;
+    top: 2rem;
+    width: 25px;
   }
+}
