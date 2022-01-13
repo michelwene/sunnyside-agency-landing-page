@@ -14,8 +14,9 @@
     <link rel="stylesheet" href="./assets/css/cabecalho.css" />
     <link rel="stylesheet" href="./assets/css/banner.css" />
     <link rel="stylesheet" href="./assets/css/conteudo.css" />
-    <link rel="stylesheet" href="./assets/css/depoimentos.css">
-    <link rel="stylesheet" href="./assets/css/rodape.css">
+    <link rel="stylesheet" href="./assets/css/depoimentos.css" />
+    <link rel="stylesheet" href="./assets/css/rodape.css" />
+    <link rel="stylesheet" href="./assets/css/imagens.css" />
     <title>Frontend Mentor | Sunnyside agency landing page</title>
   </head>
   <body class="app">
@@ -26,20 +27,20 @@
           <li class="menu__item">About</li>
           <li class="menu__item">Services</li>
           <li class="menu__item">Projects</li>
-          <li class="menu__item"><a href="">Contact</a></li>
+          <button class="menu__item">contact</button>
         </ul>
       </nav>
     </header>
     <section class="banner">
       <h1 class="banner__titulo">We are creatives</h1>
-      <a href="#" class="banner__seta"
+      <a href="#conteudo" class="banner__seta"
         ><img
           src="./assets/images/icon-arrow-down.svg"
           alt="icone seta"
           class="banner__seta--image"
       /></a>
     </section>
-    <section class="conteudo">
+    <section class="conteudo" id="conteudo">
       <div class="descricao1">
         <h2 class="descricao__titulo">Transform your brand</h2>
         <p class="descricao__texto1">
@@ -50,10 +51,18 @@
         <button class="descricao__leiaMais1">Learn more</button>
       </div>
       <div class="descricao__image1">
-        <img src="./assets/images/desktop/image-transform.jpg" alt="imagem ovo" class="descricao__image--container" />
+        <img
+          src="./assets/images/desktop/image-transform.jpg"
+          alt="imagem ovo"
+          class="descricao__image--container"
+        />
       </div>
       <div class="descricao__image2">
-        <img src="./assets/images/desktop/image-stand-out.jpg" alt="imagem copo" class="descricao__image--container" />
+        <img
+          src="./assets/images/desktop/image-stand-out.jpg"
+          alt="imagem copo"
+          class="descricao__image--container"
+        />
       </div>
       <div class="descricao2">
         <h2 class="descricao__titulo">Stand out to the right audience</h2>
@@ -81,42 +90,53 @@
     </section>
     <section class="depoimentos">
       <h3 class="depoimentos__titulo">Client testimonials</h3>
-      <div class="cliente">
-        <img src="" alt="" class="cliente__logo" />
-        <p class="cliente__depoimento">
-          We put our trust in Sunnyside and they delivered, making sure our
-          needs were met and deadlines were always hit.
-        </p>
-        <span class="info"
-          ><h3 class="info__nome">Emily R.</h3>
-          <p class="info__cargo">Marketing Director</p></span
-        >
-      </div>
-      <div class="cliente">
-        <img src="" alt="" class="cliente__logo" />
-        <p class="cliente__depoimento">
-          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
-          success made it a satisfying and enjoyable experience.
-        </p>
-        <span class="info">
-          <h3 class="info__nome">Thomas S.</h3>
-          <p class="info__cargo">Chief Operating Officer</p>
-        </span>
-      </div>
-      <div class="cliente">
-        <img src="" alt="" class="cliente_logo" />
-        <p class="cliente__depoimento">
-          Incredible end result! Our sales increased over 400% when we worked
-          with Sunnyside. Highly recommended!
-        </p>
-        <span class="info">
-          <h3 class="info__nome">Jennie F.</h3>
-          <p class="info__cargo">Business Owner</p>
-        </span>
+      <div class="clientes">
+        <div class="cliente">
+          <span class="cliente__logo--emily"></span>
+          <p class="cliente__depoimento">
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <span class="info"
+            ><h3 class="info__nome">Emily R.</h3>
+            <p class="info__cargo">Marketing Director</p></span
+          >
+        </div>
+        <div class="cliente">
+          <span class="cliente__logo--thomas"></span>
+          <p class="cliente__depoimento">
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <span class="info">
+            <h3 class="info__nome">Thomas S.</h3>
+            <p class="info__cargo">Chief Operating Officer</p>
+          </span>
+        </div>
+        <div class="cliente">
+          <span class="cliente__logo--jennie"></span>
+          <p class="cliente__depoimento">
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <span class="info">
+            <h3 class="info__nome">Jennie F.</h3>
+            <p class="info__cargo">Business Owner</p>
+          </span>
+        </div>
       </div>
     </section>
+    <section class="imagens">
+      <span class="imagem1"></span>
+      <span class="imagem2"></span><span class="imagem3"></span>
+      <span class="imagem4"></span>
+    </section>
     <footer class="rodape">
-      <h4 class="nome__empresa">Sunnyside</h4>
+      <img
+        src="./assets/images/logo-black.svg"
+        alt="logo site"
+        class="logo__rodape"
+      />
       <nav class="menu--rodape">
         <ul class="menu__lista--rodape">
           <li class="menu__item--rodape">About</li>
@@ -128,22 +148,34 @@
         <ul class="menu__compartilhar">
           <li class="menu__lista--compartilhar">
             <a href="#" class="menu__item--link"
-              ><img src="" alt="" class="menu__item--image"
+              ><img
+                src="./assets/images/icon-facebook.svg"
+                alt="icone facebook"
+                class="menu__item--image"
             /></a>
           </li>
           <li class="menu__lista--compartilhar">
             <a href="#" class="menu__item--link"
-              ><img src="" alt="" class="menu__item--image"
+              ><img
+                src="./assets/images/icon-instagram.svg"
+                alt="icone instagram"
+                class="menu__item--image"
             /></a>
           </li>
           <li class="menu__lista--compartilhar">
             <a href="#" class="menu__item--link"
-              ><img src="" alt="" class="menu__item--image"
+              ><img
+                src="./assets/images/icon-twitter.svg"
+                alt="icone twitter"
+                class="menu__item--image"
             /></a>
           </li>
           <li class="menu__lista--compartilhar">
             <a href="#" href="#" class="menu__item--link"
-              ><img src="" alt="" class="menu__item--image"
+              ><img
+                src="./assets/images/icon-pinterest.svg"
+                alt="icone pinterest"
+                class="menu__item--image"
             /></a>
           </li>
         </ul>

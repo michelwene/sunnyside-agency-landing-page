@@ -1,0 +1,34 @@
+.imagens {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "imagem1 imagem2 imagem3 imagem4";
+  position: relative;
+  top: 43.6rem;
+}
+
+.imagem1 {
+  background: url(../images/desktop/image-gallery-milkbottles.jpg) center /
+    cover no-repeat;
+  height: 445px;
+}
+
+.imagem2 {
+  background: url(../images/desktop/image-gallery-orange.jpg) center /
+    cover no-repeat;
+  height: 445px;
+}
+
+.imagem3 {
+  background: url(../images/desktop/image-gallery-cone.jpg) center /
+    cover no-repeat;
+  height: 445px;
+}
+
+.imagem4 {
+  background: url(../images/desktop/image-gallery-sugarcubes.jpg) center /
+    cover no-repeat;
+  height: 445px;
+}

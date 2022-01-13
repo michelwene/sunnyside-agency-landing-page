@@ -1,4 +1,94 @@
-.depoimentos{
-    position: relative;
-    top: 800px;
+.depoimentos {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 48.5rem;
+  position: relative;
+  top: 43.6rem;
+}
+
+.depoimentos::before {
+    background-color: var(--azul-acizentado);
+    content: "";
+    height: 100%;  
+    left: 0;
+    opacity: .1; 
+    position: absolute;
+    top: 0; 
+    width: 100%; 
+    z-index: -1;
+  }
+
+.depoimentos__titulo {
+  color: var(--azul-acizentado-escuro);
+  font-family: "Fraunces", sans-serif;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-top: 10rem;
+  text-transform: uppercase;
+  word-spacing: 5px;
+}
+
+.clientes {
+  display: flex;
+  justify-content: space-around;
+  margin: 5.3rem 11rem 0 10.5rem;
+}
+
+.cliente {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cliente__logo--emily {
+  background: url(../images/image-emily.jpg) center / cover no-repeat;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.cliente__logo--thomas {
+  background: url(../images/image-thomas.jpg) center / cover no-repeat;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.cliente__logo--jennie {
+  background: url(../images/image-jennie.jpg) center / cover no-repeat;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.cliente__depoimento {
+    color: var(--azul-acizentado-escuro);
+  font-family: "Barlow", sans-serif;
+  font-size: 19px;
+  line-height: 1.7;
+  margin-top: 3.7rem;
+  padding: 0 10px;
+  text-align: center;
+}
+
+
+
+.info {
+  margin-top: 4.5rem;
+}
+
+.info__nome {
+  color: var(--azul-muitoescuro);
+  font-family: "Fraunces", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.info__cargo {
+  color: var(--azul-acizentado);
+  margin-right: 5px;
+  margin-top: 1rem;
 }
