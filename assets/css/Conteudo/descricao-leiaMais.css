@@ -60,7 +60,7 @@
 
 .descricao__leiaMais2::before {
   background: var(--vermelho-claro);
-  box-shadow: 0 0 5px var(--amarelo);
+  box-shadow: 0 0 5px var(--vermelho-claro);
   border-radius: 10px;
   content: " ";
   display: block;

@@ -1,4 +1,5 @@
 .conteudo {
+  
   display: grid;
   grid-area: conteudo;
   grid-auto-columns: 1fr;
