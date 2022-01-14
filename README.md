@@ -54,8 +54,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solução URL: [https://github.com/michelwene/article-preview-component](https://github.com/michelwene/article-preview-component)
-- Site URL: [https://michelwene.github.io/article-preview-component/](https://michelwene.github.io/article-preview-component/)
+- Solução URL: [https://github.com/michelwene/sunnyside-agency-landing-page](https://github.com/michelwene/sunnyside-agency-landing-page)
+- Site URL: [https://michelwene.github.io/sunnyside-agency-landing-page/](https://michelwene.github.io/sunnyside-agency-landing-page/)
 
 ## Meu processo
 
