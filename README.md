@@ -154,7 +154,7 @@ Os usuários devem ser capazes de:
   opacity: 1;
 }
 
-/*Neste css, representa a seta que fica embaixo do botão "Learn More", podemora observer que ele está anterior ao texto (este é a linha amarela), o outro que corresponde ao vermelho eu apenas troquei o background para vermelho e também sua box-shadow.
+/*Neste css, representa a seta que fica embaixo do botão "Learn More", podemora observer que ele está anterior ao texto (este é a linha amarela), o outro que corresponde ao vermelho eu apenas troquei o background para vermelho e também sua box-shadow.*/
 ```
 
 ```javaScript
@@ -166,7 +166,7 @@ hamburguer.addEventListener("click", function () {
 });
 
 /*Basicamente esta é a função que utilizei para inserir um classe na div "menu__lista" onde inicialmente esta div esta com visibily: hidden e quando eu clico na seta ele coloca esta classe "show", onde no CSS ela esta com "visibily: visible" e "opacity: 1", ou seja, ela mostra para mim o menu.
-E para selecionar o clique, eu adicionei um evento de "click" no ícone da seta no HTML e quando clicado ela chama a função acima.
+E para selecionar o clique, eu adicionei um evento de "click" no ícone da seta no HTML e quando clicado ela chama a função acima.*/
 ```
 
 ### Continuação dos desenvolvimentos
