@@ -49,7 +49,7 @@ Os usuários devem ser capazes de:
 
 - Gif
 <p  align="center" >
-<img src="assets/images/Gif.gif">
+<img src="assets/images/14012022.gif">
 </p>
 
 ### Links
