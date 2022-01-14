@@ -12,8 +12,20 @@
   top: 43.7rem;
 }
 
-
-
-
-
-
+@media screen and (max-width: 768px) {
+  .conteudo {
+    display: grid;
+    grid-auto-columns: 100vw;
+    grid-template-columns: 100vw;
+    grid-template-rows: 320px 420px 320px 420px 610px 610px;
+    grid-template-areas:
+      "conteudo"
+      "conteudo"
+      "conteudo"
+      "conteudo"
+      "conteudo"
+      "conteudo";
+    grid-area: 1 / 1 / 7 / 2;
+    top: 33.5rem;
+  }
+}

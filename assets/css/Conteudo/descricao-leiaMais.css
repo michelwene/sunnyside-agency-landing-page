@@ -77,3 +77,14 @@
   cursor: pointer;
   opacity: 1;
 }
+
+
+@media screen and (max-width: 768px){
+  .descricao__leiaMais1{
+    margin-top: 1.5rem;
+  }
+
+  .descricao__leiaMais2{
+    margin-top: 1.5rem;
+  }
+}

@@ -35,3 +35,29 @@
   padding-right: 12rem;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .descricao__texto1{
+    line-height: 1.8;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .descricao__texto2 {
+    line-height: 1.7;
+    margin-top: 1rem;
+    padding: 0 1.2rem 0 1rem;
+    text-align: center;
+  }
+
+  .descricao__texto3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .descricao__texto4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

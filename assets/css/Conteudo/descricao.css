@@ -1,29 +1,64 @@
 .descricao1 {
-    grid-area: 1 / 1 / 2 / 2;
-    margin-top: 10.3rem;
-    padding-left: 10.3rem;
+  grid-area: 1 / 1 / 2 / 2;
+  margin-top: 10.3rem;
+  padding-left: 10.3rem;
+}
+
+.descricao2 {
+  margin-top: 10rem;
+  padding-left: 7rem;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.descricao3 {
+  background-image: url(../../images/desktop/image-graphic-design.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 25rem;
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.descricao4 {
+  background-image: url(../../images/desktop/image-photography.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 25rem;
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+@media screen and (max-width: 768px) {
+  .descricao1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    grid-area: 2 / 1 / 2 / 2;
+    margin-top: 4rem;
+    padding-left: 0;
   }
 
   .descricao2 {
-    margin-top: 10rem;
-    padding-left: 7rem;
-    grid-area: 2 / 2 / 3 / 3;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    grid-area: 4 / 1 / 5 / 2;
+    justify-content: center;
+    margin-top: 1rem;
+    padding-left: 1rem;
   }
 
   .descricao3 {
-    background-image: url(../../images/desktop/image-graphic-design.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 25rem;
-    grid-area: 3 / 1 / 4 / 2;
+    background-image: url(../../images/mobile/image-graphic-design.jpg) center /
+      cover no-repeat;
+    grid-area: 5 / 1 / 6 / 2;
+    padding-top: 26rem;
   }
 
   .descricao4 {
-    background-image: url(../../images/desktop/image-photography.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 25rem;
-    grid-area: 3 / 2 / 4 / 3;
+    background-image: url(../../images/mobile/image-photography.jpg) center /
+      cover no-repeat;
+    grid-area: 6 / 1 / 7 / 2;
+    padding-top: 25.6rem;
   }
+}

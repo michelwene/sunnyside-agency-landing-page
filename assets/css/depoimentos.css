@@ -28,3 +28,16 @@
   text-transform: uppercase;
   word-spacing: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .depoimentos{
+    height: auto;
+    top: 33.5rem;
+  }
+
+  .depoimentos__titulo {
+    font-size: 14px;
+    margin-top: 4.3rem;
+
+  }
+}

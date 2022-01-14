@@ -3,3 +3,9 @@
   margin-right: 5px;
   margin-top: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+  .info__cargo {
+    padding-bottom: 4rem;
+  }
+}

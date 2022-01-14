@@ -29,3 +29,14 @@
   text-align: center;
   text-transform: capitalize;
 }
+
+
+@media screen and (max-width: 768px) {
+  .descricao__titulo{
+    font-size: 30px;
+    line-height: 1.2;
+    padding: 0 1rem 1rem 1rem;
+    text-align: center;
+  }
+
+}

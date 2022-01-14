@@ -2,3 +2,9 @@
 .info {
     margin-top: 4.5rem;
   }
+
+  @media screen and (max-width: 768px){
+    .info{
+      margin-top: 2.3rem;
+    }
+  }
